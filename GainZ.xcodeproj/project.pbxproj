@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5204D727279421BD00DB080F /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204D726279421BD00DB080F /* VisualEffectBlur.swift */; };
+		5204D729279421E000DB080F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5204D728279421E000DB080F /* GoogleService-Info.plist */; };
 		525E061A27941B3000734DA3 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E061927941B3000734DA3 /* HomeScreen.swift */; };
 		525E061F27941B4F00734DA3 /* cal class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E061E27941B4F00734DA3 /* cal class.swift */; };
 		525E062127941B5200734DA3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E062027941B5200734DA3 /* ProfileView.swift */; };
 		525E062327941B5500734DA3 /* AboutGainZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E062227941B5500734DA3 /* AboutGainZ.swift */; };
 		525E062527941B5C00734DA3 /* CaloriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E062427941B5C00734DA3 /* CaloriesView.swift */; };
-		525E062727941C6300734DA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 525E062627941C6300734DA3 /* GoogleService-Info.plist */; };
 		5295A8E7278F702A00BCA9AF /* GainZApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5295A8E6278F702A00BCA9AF /* GainZApp.swift */; };
 		5295A8E9278F702A00BCA9AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5295A8E8278F702A00BCA9AF /* ContentView.swift */; };
 		5295A8EB278F702B00BCA9AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5295A8EA278F702B00BCA9AF /* Assets.xcassets */; };
@@ -22,7 +23,6 @@
 		5295A904278F702B00BCA9AF /* GainZUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5295A903278F702B00BCA9AF /* GainZUITestsLaunchTests.swift */; };
 		5295A912278F70E900BCA9AF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5295A911278F70E900BCA9AF /* FirebaseAuth */; };
 		5295A915278F712000BCA9AF /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 5295A914278F712000BCA9AF /* SwiftUICharts */; };
-		52BFA26C27941DCF00C1E86A /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BFA26B27941DCF00C1E86A /* VisualEffectBlur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,12 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5204D726279421BD00DB080F /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		5204D728279421E000DB080F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		525E061927941B3000734DA3 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		525E061E27941B4F00734DA3 /* cal class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "cal class.swift"; sourceTree = "<group>"; };
 		525E062027941B5200734DA3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		525E062227941B5500734DA3 /* AboutGainZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutGainZ.swift; sourceTree = "<group>"; };
 		525E062427941B5C00734DA3 /* CaloriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesView.swift; sourceTree = "<group>"; };
-		525E062627941C6300734DA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5295A8E3278F702A00BCA9AF /* GainZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GainZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5295A8E6278F702A00BCA9AF /* GainZApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainZApp.swift; sourceTree = "<group>"; };
 		5295A8E8278F702A00BCA9AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,7 +60,6 @@
 		5295A8FD278F702B00BCA9AF /* GainZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GainZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5295A901278F702B00BCA9AF /* GainZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainZUITests.swift; sourceTree = "<group>"; };
 		5295A903278F702B00BCA9AF /* GainZUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainZUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		52BFA26B27941DCF00C1E86A /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VisualEffectBlur.swift; path = ../../../VisualEffectBlur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				5295A8E5278F702A00BCA9AF /* GainZ */,
+				5204D728279421E000DB080F /* GoogleService-Info.plist */,
 				5295A8F6278F702B00BCA9AF /* GainZTests */,
 				5295A900278F702B00BCA9AF /* GainZUITests */,
 				5295A8E4278F702A00BCA9AF /* Products */,
@@ -134,10 +135,9 @@
 			children = (
 				5295A8E6278F702A00BCA9AF /* GainZApp.swift */,
 				5295A8E8278F702A00BCA9AF /* ContentView.swift */,
-				52BFA26B27941DCF00C1E86A /* VisualEffectBlur.swift */,
+				5204D726279421BD00DB080F /* VisualEffectBlur.swift */,
 				5295A8EA278F702B00BCA9AF /* Assets.xcassets */,
 				525E061827941B1C00734DA3 /* Homescreen */,
-				525E062627941C6300734DA3 /* GoogleService-Info.plist */,
 				5295A8EC278F702B00BCA9AF /* Preview Content */,
 			);
 			path = GainZ;
@@ -282,7 +282,7 @@
 			files = (
 				5295A8EE278F702B00BCA9AF /* Preview Assets.xcassets in Resources */,
 				5295A8EB278F702B00BCA9AF /* Assets.xcassets in Resources */,
-				525E062727941C6300734DA3 /* GoogleService-Info.plist in Resources */,
+				5204D729279421E000DB080F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +314,7 @@
 				525E062127941B5200734DA3 /* ProfileView.swift in Sources */,
 				5295A8E7278F702A00BCA9AF /* GainZApp.swift in Sources */,
 				525E062327941B5500734DA3 /* AboutGainZ.swift in Sources */,
-				52BFA26C27941DCF00C1E86A /* VisualEffectBlur.swift in Sources */,
+				5204D727279421BD00DB080F /* VisualEffectBlur.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
